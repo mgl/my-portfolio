@@ -1,21 +1,21 @@
 module.exports = {
   //-- SITE SETTINGS -----
-  author: "@konstantinmuenster",
-  siteTitle: "Gatsby Starter Portfolio Minimal",
-  siteShortTitle: "Gatsby", // Used as logo text in header, footer, and splash screen
+  author: "@mgl",
+  siteTitle: "Portfolio Marius",
+  siteShortTitle: "Portfolio", // Used as logo text in header, footer, and splash screen
   siteDescription:
-    "A modern one-page portfolio with a clean yet expressive design.",
+    "Portfolio des mes différents projets.",
   siteUrl: "https://gatsby-starter-portfolio-minimal.netlify.app/",
   siteLanguage: "en_US",
   siteIcon: "content/favicon.png", // Relative to gatsby-config file
-  seoTitleSuffix: "Portfolio Minimal", // SEO title syntax will be e.g. "Imprint - {seoTitleSuffix}"
+  seoTitleSuffix: "Portfolio Marius", // SEO title syntax will be e.g. "Imprint - {seoTitleSuffix}"
   
   // -- THEME SETTINGS -----
   colors: {
     lightTheme: {
       primary: "#000000",
-      secondary: "#FFF4D9",
-      tertiary: "#F2F2F2",
+      secondary: "#0b5fe6",
+      tertiary: "#0058e6",
       text: "#000000",
       subtext: "#555555",
       background: "#FFFFFF",
@@ -45,7 +45,7 @@ module.exports = {
   // You can create your own Medium feed with this rss to json converter: https://rss2json.com/
   // To access your Medium RSS feed, just replace this url with your username: https://medium.com/feed/@{yourname}
   rssFeed:
-    "https://api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Fmedium.com%2Ffeed%2F%40konstantinmuenster",
+    "",
 
   shownArticles: 3,
 
@@ -54,26 +54,14 @@ module.exports = {
   // Medium, GitHub, LinkedIn, XING, Behance, E-Mail
   socialMedia: [
     {
-      name: "Linkedin",
-      url: "https://www.linkedin.com/in/konstantin-muenster/",
-    },
-    {
-      name: "Medium",
-      url: "https://konstantinmuenster.medium.com/",
-    },
-    {
       name: "Github",
       url:
-        "https://github.com/konstantinmuenster/gatsby-starter-portfolio-minimal",
+        "https://github.com/mgl",
     },
     {
-      name: "Behance",
-      url: "https://www.behance.net/konstanmnster",
+      name: "Mail",
+      url: "mailto:marius@mgl.dev",
     },
-    // {
-    //   name: "Mail",
-    //   url: "mailto:mail@konstantin.digital",
-    // },
   ],
 
   //-- NAVIGATION SETTINGS -----
